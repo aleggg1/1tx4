@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document print */
+.navbar-header, .nav, .navbar, .breadcrumb, .inner-title, .links-buttons, .text-left {
+	display: none;
+}
+.scroll-table {
+    max-height: 2000px !important;
+}
+.tab-content {
+	border: none !important;
+}
+.scroll-table {
+	padding-left: 0px !important;
+}
+.tab-content, .personal-info {
+	padding: 0px;
+	margin-top: 0px;
+}
+.title-table th {
+	text-align: right !important;
+}

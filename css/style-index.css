@@ -1,0 +1,289 @@
+body{
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-between; */
+}
+
+#login-section form{
+	padding-top: 2.5rem!important;
+	padding-bottom: 2rem;
+    margin-top: 0 !important;
+	height: 100%;
+    display: flex !important;
+    flex-direction: column;
+}
+
+.links-no-clientes{
+	font-size: 16px;
+    margin-top: 1em;
+	display: flex;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.links-no-clientes-mobile{
+	padding-right: 15px;
+    padding-left: 15px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	font-size: 16px;
+	margin-top: 6.5vh;
+	padding-bottom: 30px;
+	display: none;
+	font-weight: 600;
+	text-decoration: underline;
+}
+.links-no-clientes-mobile a:nth-child(1){
+	margin-left: 15px;
+}
+.links-no-clientes-mobile a:nth-child(2){
+	margin-right: 15px;
+}
+.contenedor-botones{
+    margin-top: 20px;
+}
+
+.banner-desktop {
+	display: inline-block;
+}
+.main-banner-mobile{
+	display: none;
+}
+
+@media(max-width:767px){
+	.banner-desktop {
+		display: none!important;
+	}
+}
+@media(max-width:768px){
+	body{
+		display: flex;
+    	flex-direction: column;
+    	justify-content: space-between;
+		background-color: #f3f5f7;
+	
+	}
+	.contenedor-botones{
+		margin-top: 5vh;
+	}
+	.campo-contrasenia{
+		margin-top: 2rem;
+	}
+
+	#login-section{
+		background-color: #f3f5f7;
+	}
+	#login-section .row{
+		display: flex;
+    	flex-direction: column;
+		margin-right: 0;
+		margin-left: 0;
+		width: 100%;
+		align-items: center;
+	}
+	#login-section form{
+		padding-bottom: 0 !important;
+	}
+	.main-banner-desktop,
+	.links-no-clientes{
+		display: none;
+	}
+	.banner-mobile{
+		display: inline-block;
+		margin-top: 2rem;
+	}
+	.links-no-clientes-mobile{
+		display: flex;
+	}
+	.main-banner-mobile{
+		display: inline-block;
+	}
+	.footer-index{
+		height: 126px;
+	}
+	
+}
+
+@media (max-width:768px) and (min-height:632px){
+
+	.banner-mobile{
+		margin-top: 1rem;
+	}
+	#form_login{
+		padding-top: 1rem;
+	}
+}
+@media (max-width:768px) and (min-height:690px){
+
+	.banner-mobile{
+		margin-top: 5vh;
+	}
+}
+
+@media (max-width:768px) and (min-height:800px) {
+
+	#form_login {
+		padding-top: 0rem;
+	}
+}
+
+@media(min-width: 769px){
+	#login-section{
+		width: 650px;
+    	margin: auto;
+	}
+}
+
+@media(min-width: 968px) and (max-width: 1535px){
+	#login-section{
+		width: 680px;
+		margin: auto;
+	}
+
+	.links-no-clientes{
+		display: flex;
+	}
+
+	.footer-index{
+		height: 34px;
+	}
+
+	.footer-index .container{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		height: 100%;
+	}
+}
+
+@media(min-width: 1536px){
+	#login-section{
+		width: 780px;
+	}
+	#login-section form{
+		padding-top: 2.5rem!important;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+}
+@media(min-width: 1920px){
+	body{
+		display: flex;
+    	flex-direction: column;
+	}
+	#login-section{
+		width: 1200px;
+		margin-top: 0px;
+	}
+	#login-section .row{
+		height: 100%;
+	}
+	#login-section .banner-desktop{
+		width: 96.6%;
+	}
+}
+.columna-formulario{
+	display: flex;
+    flex-direction: column;
+    background-color: #f3f5f7;
+}
+#login-section .row{
+	display: flex;
+}
+
+.main-banner-desktop{
+	padding: 0 !important;
+	text-align: right;
+}
+.carousel,
+.carousel-inner,
+.carousel-item{
+    height: 100%;
+    max-height: 100%;
+}
+.show-pass{
+	right: 5px;
+    top: 51px;
+}
+
+#login-section .descargar-app{
+	display: none;
+}
+@media (max-width: 768px) {
+	#login-section .descargar-app{
+		display: block;
+	}
+}
+
+#login-section .descargar-app,
+#login-section .descargar-app-web{
+	background-color: #ffffff;
+	width: calc(100% - 30px);
+	margin-right: 15px;
+    margin-left: 15px;
+	padding: 16px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+#login-section .descargar-app .contenedor-botones-app,
+#login-section .descargar-app-web .contenedor-botones-app{
+	display: flex;
+    justify-content: space-between;
+}
+#login-section .descargar-app p,
+#login-section .descargar-app-web p{
+	font-size: 16px;
+	color: #313E49;
+	font-weight: 600;
+}
+#login-section .descargar-app a,
+#login-section .descargar-app-web a{
+	color: #ffffff;
+	background: #181818;
+	font-weight: 600;
+	border-radius: 8px !important;
+	border: none !important;
+	padding: 12px 20px !important;
+}
+#login-section .descargar-app a i,
+#login-section .descargar-app-web a i{
+	width: 22px;
+    height: 26px;
+	display: inline-flex;
+	background-size: contain;
+}
+#login-section .descargar-app a .icon-play-store,
+#login-section .descargar-app-web a .icon-play-store{
+	background: url(../img/play-store-icon.svg) no-repeat center;
+}
+#login-section .descargar-app a .icon-app-store,
+#login-section .descargar-app-web a .icon-app-store{
+	background: url(../img/app-store-icon.svg) no-repeat center;
+}
+
+#login-section .descargar-app-web{
+	margin: 14px 0;
+	background-color: transparent;
+	padding: 0;
+	width: 100%;
+	margin-top: auto;
+}
+#login-section .descargar-app-web p{
+	margin-bottom: 1.5rem;
+}
+#login-section .descargar-app-web a{
+	padding: 8px 14px !important;
+	width: 50%;
+}
+#login-section .descargar-app a:hover,
+#login-section .descargar-app-web a:hover{
+    background: #181818;
+    box-shadow: 0 0 0 0.2rem #027cea42;
+    border: 1px solid #027cea;
+}
+@media (max-width:768px){
+    .descargar-app-web.real-only-desktop{
+        display: none!important;
+    }
+}
